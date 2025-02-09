@@ -1,10 +1,10 @@
-package ru.itis.model.stats;
+package ru.itis.dto.stats;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ru.itis.model.Test;
+import ru.itis.model.User;
 
 import java.time.LocalDateTime;
 
@@ -12,8 +12,9 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CompletedTestStats {
-    private Test test;
-    private int result;
+
+public class UserResultCompletedAt {
+    private User user;
+    private int score;
     private LocalDateTime completedAt;
 }

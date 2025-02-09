@@ -8,7 +8,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import ru.itis.dto.TestDTO;
 import ru.itis.service.test.general.api.GetTestService;
-import ru.itis.service.test.general.impl.GetTestServiceImpl;
 
 import java.io.IOException;
 import java.util.UUID;

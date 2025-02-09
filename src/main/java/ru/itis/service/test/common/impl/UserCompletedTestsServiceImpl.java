@@ -1,10 +1,10 @@
 package ru.itis.service.test.common.impl;
 
 import ru.itis.model.Result;
-import ru.itis.model.stats.CompletedTestIdStats;
-import ru.itis.model.stats.CompletedTestStats;
-import ru.itis.model.stats.UserIdResultCompletedAt;
-import ru.itis.model.stats.UserResultCompletedAt;
+import ru.itis.dto.stats.CompletedTestIdStats;
+import ru.itis.dto.stats.CompletedTestStats;
+import ru.itis.dto.stats.UserIdResultCompletedAt;
+import ru.itis.dto.stats.UserResultCompletedAt;
 import ru.itis.repository.api.UsersCompletedTestsRepository;
 import ru.itis.repository.impl.UsersCompletedTestsRepositoryImpl;
 import ru.itis.service.test.common.api.TestService;

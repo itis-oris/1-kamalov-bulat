@@ -2,8 +2,8 @@ package ru.itis.repository.impl;
 
 import ru.itis.config.DatabaseConfig;
 import ru.itis.model.Result;
-import ru.itis.model.stats.CompletedTestIdStats;
-import ru.itis.model.stats.UserIdResultCompletedAt;
+import ru.itis.dto.stats.CompletedTestIdStats;
+import ru.itis.dto.stats.UserIdResultCompletedAt;
 import ru.itis.repository.api.UsersCompletedTestsRepository;
 
 import java.sql.Connection;

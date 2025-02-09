@@ -18,6 +18,7 @@ public class DatabaseConfig {
     private static HikariDataSource dataSource;
 
     private DatabaseConfig() {
+
         try {
 
             Class.forName("org.postgresql.Driver");

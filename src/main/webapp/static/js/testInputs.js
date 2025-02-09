@@ -293,8 +293,8 @@ function removeField(askNum, fieldNum) {
 function removeAsk(askNum) {
     const askElement = document.getElementById(`ask-creating-${askNum}`);
     if (askElement) {
-        askElement.remove(); // Удаляем вопрос из DOM
-        askFieldData.delete(askNum); // Удаляем вопрос из Map
+        askElement.remove();
+        askFieldData.delete(askNum);
     }
 }
 

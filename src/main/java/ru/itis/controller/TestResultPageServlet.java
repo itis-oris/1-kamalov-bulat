@@ -10,11 +10,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import ru.itis.model.Result;
-import ru.itis.model.User;
 import ru.itis.service.test.common.api.UserCompletedTestsService;
-import ru.itis.service.test.common.impl.UserCompletedTestsServiceImpl;
 import ru.itis.service.test.general.api.GetUserTestResultService;
-import ru.itis.service.test.general.impl.GetUserTestResultServiceImpl;
 
 import java.io.IOException;
 import java.time.LocalDateTime;

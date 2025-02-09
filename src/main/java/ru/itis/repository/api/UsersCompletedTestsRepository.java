@@ -1,8 +1,8 @@
 package ru.itis.repository.api;
 
 import ru.itis.model.Result;
-import ru.itis.model.stats.CompletedTestIdStats;
-import ru.itis.model.stats.UserIdResultCompletedAt;
+import ru.itis.dto.stats.CompletedTestIdStats;
+import ru.itis.dto.stats.UserIdResultCompletedAt;
 
 import java.time.LocalDateTime;
 import java.util.List;

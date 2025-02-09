@@ -1,9 +1,9 @@
 package ru.itis.service.test.general.impl;
 
 import ru.itis.model.*;
-import ru.itis.model.stats.CompletedTestStats;
-import ru.itis.model.stats.CreatedTestStats;
-import ru.itis.model.stats.UserResultCompletedAt;
+import ru.itis.dto.stats.CompletedTestStats;
+import ru.itis.dto.stats.CreatedTestStats;
+import ru.itis.dto.stats.UserResultCompletedAt;
 import ru.itis.service.test.common.api.TestService;
 import ru.itis.service.test.common.api.UserCompletedTestsService;
 import ru.itis.service.test.common.impl.TestServiceImpl;

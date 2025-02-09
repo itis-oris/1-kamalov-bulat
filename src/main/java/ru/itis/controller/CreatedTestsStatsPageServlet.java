@@ -6,9 +6,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import ru.itis.model.User;
 import ru.itis.service.test.general.api.GetUserStatsService;
-import ru.itis.service.test.general.impl.GetUserStatsServiceImpl;
 
 import java.io.IOException;
 import java.util.UUID;

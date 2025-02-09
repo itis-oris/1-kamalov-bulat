@@ -1,7 +1,7 @@
 package ru.itis.service.test.general.api;
 
-import ru.itis.model.stats.CompletedTestStats;
-import ru.itis.model.stats.CreatedTestStats;
+import ru.itis.dto.stats.CompletedTestStats;
+import ru.itis.dto.stats.CreatedTestStats;
 
 import java.util.List;
 import java.util.UUID;

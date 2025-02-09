@@ -10,7 +10,6 @@ import jakarta.servlet.http.HttpSession;
 import ru.itis.model.User;
 import ru.itis.service.BCryptService;
 import ru.itis.service.user.common.api.UserService;
-import ru.itis.service.user.common.impl.BaseUserService;
 
 import java.io.IOException;
 

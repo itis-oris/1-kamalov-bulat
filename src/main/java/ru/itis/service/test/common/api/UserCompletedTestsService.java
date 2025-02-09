@@ -1,9 +1,8 @@
 package ru.itis.service.test.common.api;
 
 import ru.itis.model.Result;
-import ru.itis.model.stats.CompletedTestIdStats;
-import ru.itis.model.stats.CompletedTestStats;
-import ru.itis.model.stats.UserResultCompletedAt;
+import ru.itis.dto.stats.CompletedTestStats;
+import ru.itis.dto.stats.UserResultCompletedAt;
 
 import java.time.LocalDateTime;
 import java.util.List;

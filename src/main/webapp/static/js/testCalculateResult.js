@@ -15,7 +15,7 @@ function calculate() {
 
         const allCorrectAnswers = question.querySelectorAll('input[data-correct="true"]');
         if (isCorrect && selectedAnswers.length === allCorrectAnswers.length) {
-            const questionScore = parseInt(question.dataset.score, 10) || 1; // Получаем балл из data-атрибута
+            const questionScore = parseInt(question.dataset.score, 10) || 1;
             score += questionScore;
         }
     });

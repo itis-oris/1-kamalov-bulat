@@ -8,7 +8,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import ru.itis.model.Test;
 import ru.itis.service.test.general.api.SearchTestsService;
-import ru.itis.service.test.general.impl.BaseSearchTestsService;
 
 import java.io.IOException;
 import java.util.List;
@@ -42,5 +41,6 @@ public class TestsPageServlet extends HttpServlet {
         }
         req.setAttribute("foundedTests", foundedTests);
         req.getRequestDispatcher("/WEB-INF/view/pages/tests.jsp").forward(req, resp);
+
     }
 }

@@ -1,4 +1,4 @@
-package ru.itis.model.stats;
+package ru.itis.dto.stats;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
